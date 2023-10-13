@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 400px;
+            height: 400px;
+            border-collapse: collapse;
+        }
+        
+        td {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .cima {
+            text-align: center;
+            vertical-align: top;
+        }
+
+        .direita {
+            text-align: right;
+        }
+
+        .baixo {
+            text-align: center;
+            vertical-align: bottom;
+        }
+
+        .esquerda {
+            text-align: left;
+        }
+
+        .bloco {
+            background-color: grey;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Minha primeira Tabela</h1>
+    </header>
+    <main>
+        <table>
+            <tr>
+                <td class="bloco">A1</td>
+                <td class="cima">B1</td>
+                <td class="bloco">C1</td>
+            </tr>
+            <tr>
+                <td class="esquerda">A2</td>
+                <td class="bloco">B2</td>
+                <td class="direita">C2</td>
+            </tr>
+            <tr>
+                <td class="esquerda">A3</td>
+                <td class="bloco">B3</td>
+                <td class="direita">C3</td>
+            </tr>
+            <tr>
+                <td class="bloco">A4</td>
+                <td class="baixo">B4</td>
+                <td class="bloco">C4</td>
+            </tr>
+        </table>
+    </main>
+</body>
+</html>
