@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício tabela</title>
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption h1 {
+            font-size: 1em;
+            margin-bottom: 10px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        col.cinza {
+            background-color: grey;
+        }
+        
+        .branco {
+            color: white;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cinza">
+            <col>
+            <col class="cinza">
+            <col>
+        </colgroup>
+      <caption>
+        <h1>Cadastro</h1>
+      </caption>
+      <thead>
+        <tr>
+            <th scope="col" class="branco">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col" class="branco">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td class="branco">Ana Maria</td>
+            <td>F</td>
+            <td class="branco">25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td class="branco">Cláudio</td>
+            <td>M</td>
+            <td class="branco">26</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td class="branco">Gustavo</td>
+            <td>M</td>
+            <td class="branco">42</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td class="branco">Hélio</td>
+            <td>M</td>
+            <td class="branco">19</td>
+            <td>Vendedor</td>
+        </tr>
+        <tr>
+            <td class="branco">Maria</td>
+            <td>F</td>
+            <td class="branco">39</td>
+            <td>Médica</td>
+        </tr>
+        <tr>
+            <td class="branco">Otávio</td>
+            <td>M</td>
+            <td class="branco">22</td>
+            <td>Nutricionista</td>
+        </tr>
+      </tbody>
+    </table>
+</body>
+</html>
