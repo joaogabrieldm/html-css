@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 4</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <fieldset>
+        <legend>Dados pessoais</legend>
+        <form action="cadastro.php" method="post">
+            <p>
+                <label for="iname">Nome</label>
+                <input type="text" name="Nome" id="iname" required>
+            </p>
+            <p>
+                <label for="iemail">E-mail</label>
+                <input type="email" name="email" id="iemail" required>
+            </p>
+            <p>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="telefone" id="itel" required placeholder="(xx)xxxxx-xxxx">
+            </p>
+        </form>
+    </fieldset>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+</body>
+</html>
