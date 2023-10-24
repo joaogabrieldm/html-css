@@ -47,3 +47,24 @@ img#tablet {display: none;}
 img#impressora {display: none;}
 img#pc {display: none;}
 img#tv {display: none;}
+
+@media print {
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main {
+        border: 2px solid black;
+    }
+    
+    main h1 {
+        color: black;
+        text-shadow: none;
+    }
+
+    img#celular{display: none;}
+    img#tablet {display: none;}
+    img#impressora {display: block;}
+    img#pc {display: none;}
+    img#tv {display: none;}
+}
